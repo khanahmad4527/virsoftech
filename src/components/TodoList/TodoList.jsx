@@ -24,6 +24,8 @@ const TodoList = () => {
       setTasks(updatedTasks);
       updateTasks(updatedTasks);
       setTask("");
+    } else {
+      alert("Please write any task");
     }
   };
 
