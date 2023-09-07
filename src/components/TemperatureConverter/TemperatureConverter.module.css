@@ -1,0 +1,34 @@
+.mainContainer {
+  text-align: center;
+}
+
+.temp {
+  color: red;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.inputContainer input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.inputContainer select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.buttonContainer button {
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: none;
+  background-color: orange;
+  color: whitesmoke;
+  cursor: pointer;
+}

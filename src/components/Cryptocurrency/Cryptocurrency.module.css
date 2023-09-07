@@ -1,0 +1,56 @@
+.cryptocurrency {
+  text-align: center;
+}
+
+.cryptocurrencyCardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cryptoCart {
+  margin-bottom: 50px;
+}
+
+.cryptoCartContainer {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.cryptoCartItem {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: max-content;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ef8e19;
+  margin: auto;
+}
+
+.cryptoCartItem button {
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: none;
+  background-color: red;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/* small screens */
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .cryptocurrencyCardContainer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .cryptoCartContainer {
+    width: 95%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

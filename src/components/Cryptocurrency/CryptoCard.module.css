@@ -1,0 +1,27 @@
+.cryptoCard {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: min-content;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ef8e19;
+  margin: auto;
+}
+
+.cryptoCard input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.cryptoCard button {
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: none;
+  background-color: green;
+  color: whitesmoke;
+  cursor: pointer;
+}
