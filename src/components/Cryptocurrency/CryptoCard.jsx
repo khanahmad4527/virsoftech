@@ -5,7 +5,7 @@ function CryptoCard({ name, price, addToCart }) {
   const [quantity, setQuantity] = useState(1);
 
   const handleBuy = () => {
-    if (quantity.toString().includes(".")) {
+    if (quantity.toString().includes(".") || !quantity) {
       alert("Please enter a whole number (e.g., 1, 2, 3) for the quantity");
     } else {
       addToCart({ name, price, quantity });
